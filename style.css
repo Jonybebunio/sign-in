@@ -1,0 +1,28 @@
+html, body, intro{
+    height:100vh;
+}
+
+@media (min-width:500px) and (max-width: 750px) {
+    html, body, intro{
+        height:750px;
+    }   
+}
+
+@media (min-width:800px) and (max-width: 850px) {
+    html, body, intro{
+        height:750px;
+    }   
+}
+
+.mask-custom{
+    backdrop-filter: blur(15px);
+    background-color: rgba(255,255,255,0.2);
+    border-radius: 3em;
+    border: 2px solid rgba(255,255,255,0.1);
+    background-clip: padding-box;
+    box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
+}
+.card-section{
+    background-image:url('images/berries-g0a076bd27_1920.jpg');
+    background-repeat: no-repeat;
+}
